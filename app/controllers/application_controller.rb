@@ -10,6 +10,7 @@ class App < Sinatra::Base
   
   post '/teams' do 
     @hero = Hero.new[params]
+    @team = Team.new[params]
   end
   
   get '/teams' do 
