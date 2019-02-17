@@ -5,4 +5,5 @@ class Hero
     @name = details[:name]
     @power = details[:power]
     @biography = details[:biography]
+  end
 end
