@@ -13,6 +13,8 @@ class App < Sinatra::Base
     
     params[:team][:hero]. each do |details|
       Hero.new(details)
+    end
+    @heroes = Hero.all 
   end
   
   get '/teams' do 
