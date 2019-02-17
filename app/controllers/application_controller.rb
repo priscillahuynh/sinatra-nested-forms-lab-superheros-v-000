@@ -14,6 +14,6 @@ class App < Sinatra::Base
   end
   
   get '/teams' do 
-    erb :teams
+    erb :team
   end 
 end
